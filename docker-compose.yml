@@ -23,7 +23,7 @@ services:
   forum:
     build:
       context: .
-      dockerfile: Dockerfile-forum
+      dockerfile: Dockerfile
     depends_on:
       - "graphql-engine"
 volumes:
