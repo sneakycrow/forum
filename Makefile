@@ -1,5 +1,5 @@
 build:
-	go build -o bin/forum cmd/forum/main.go
+	go build -o bin/forum pkg/*.go
 
 start:
-	go run cmd/forum/main.go
+	go run pkg/*.go
